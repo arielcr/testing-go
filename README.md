@@ -12,7 +12,7 @@ go test -v --coverprofile cover.out github.com/arielcr/testing-go/api
 go test -v --coverprofile cover.out github.com/arielcr/testing-go/math
 ```
 
-### T get a report about the test
+### To get a report about the test
 
 ```
 go tool cover -html=cover.out
